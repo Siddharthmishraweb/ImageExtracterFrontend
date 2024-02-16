@@ -1,0 +1,56 @@
+.OCRDisplay {
+  padding: 20px;
+}
+
+.ImageContainer {
+  text-align: center;
+}
+
+.TextContainer {
+  padding: 20px;
+}
+
+.TextContainer h2 {
+  color: #333;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.TextContainer p {
+  color: #666;
+  font-size: 18px;
+}
+.box {
+  height: auto;
+  width: 20rem;
+  background: #dde1e7;
+  border-radius: 20px;
+  margin: 20px;
+}
+.box {
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+.box2 {
+  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45),
+    inset 5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+.circle::after {
+  content: "";
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 9px rgba(255, 255, 255, 0.45),
+    inset 5px 5px 9px rgba(94, 104, 121, 0.3);
+}

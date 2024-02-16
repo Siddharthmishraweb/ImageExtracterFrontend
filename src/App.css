@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.ImageUpload input[type="file"] {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.OCRDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageContainer img {
+  max-width: 400px;
+}
+
+.TextContainer {
+  margin-left: 40px;
+}
+
+.TextContainer h2 {
+  font-size: 1.5rem;
+}
+
+.TextContainer ul {
+  list-style-type: none;
+}
+
+.TextContainer ul li {
+  font-weight: bold;
+}
